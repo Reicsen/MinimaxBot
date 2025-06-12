@@ -1,0 +1,25 @@
+Plik główny: bot.py
+Autor: Ryszard Chereźniak
+Numer indeksu: 272333
+
+Cel: prosty bot implementujący algorytm minimax z alfa-beta cięciami do gry opisanej na liście.
+
+Język: Python
+Zalecana wersja: Python 3.10.12
+
+Dołączone pliki:
+-heurystyka.py - zawiera funkcję oceny heurystycznej używaną w algorytmie, wraz z jej opisem
+-minimax.py - zzawiera implementację algorytmu minimax; odpowiada za wybór ruchu
+-otwarcia.py - prosta biblioteka otwarć (dla trzech pierwszych ruchów i części czwartych ruchów)
+-wygranaPrzegrana.py - zawiera funkcje dokonujące statycznej oceny sytuacji na planszy, poszukujących schematów uznawanyh za pozycję wygrywającą
+                        lub przgrywającą dla danego gracza
+
+Wykorzystane pakiety i biblioteki:
+-random - do losowego wyboru ruchu spośród najbardziej optymalnych (jeśli jest ich kilka)
+-sys - argv do pobierania argumentów wywołania programu
+-socket - do nawiązania połączenia oraz komunikacji z serwerem
+
+Syntax wywołania programu: python3 bot.py [adres IP serwera] [numer portu serwera] [numer gracza] [nazwa użytkownika o długości max 9] [maksymalna głębokość dopuszczalnego przeszukiwania]
+
+Rezultat działania:
+-rozgrywka z przeciwnikiem w grę opisaną na liście
