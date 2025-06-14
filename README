@@ -1,6 +1,5 @@
 Plik główny: bot.py
 Autor: Ryszard Chereźniak
-Numer indeksu: 272333
 
 Cel: prosty bot implementujący algorytm minimax z alfa-beta cięciami do gry opisanej na liście.
 
